@@ -31,5 +31,24 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            String username = txtUserName.Text;
+            string password = txtpassword.Text;
+
+            if (username == "admin" && password == "admin")
+            {
+
+                MessageBox.Show("Đăng nhập thành công!");
+                Form2 mainForm = new Form2();
+                mainForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không chính xác!");
+            }
+        }
     }
 }
