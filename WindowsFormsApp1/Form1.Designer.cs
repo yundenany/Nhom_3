@@ -30,6 +30,8 @@
         {
             this.UserName = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.MatKhau = new System.Windows.Forms.Label();
+            this.txtmatKhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // UserName
@@ -48,11 +50,31 @@
             this.txtUserName.Size = new System.Drawing.Size(270, 22);
             this.txtUserName.TabIndex = 2;
             // 
+            // MatKhau
+            // 
+            this.MatKhau.AutoSize = true;
+            this.MatKhau.Location = new System.Drawing.Point(120, 178);
+            this.MatKhau.Name = "MatKhau";
+            this.MatKhau.Size = new System.Drawing.Size(61, 16);
+            this.MatKhau.TabIndex = 5;
+            this.MatKhau.Text = "Mật khẩu";
+            this.MatKhau.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtmatKhau
+            // 
+            this.txtmatKhau.Location = new System.Drawing.Point(235, 173);
+            this.txtmatKhau.Name = "txtmatKhau";
+            this.txtmatKhau.Size = new System.Drawing.Size(270, 22);
+            this.txtmatKhau.TabIndex = 4;
+            this.txtmatKhau.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.MatKhau);
+            this.Controls.Add(this.txtmatKhau);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.txtUserName);
             this.Name = "Form1";
@@ -66,6 +88,8 @@
 
         private System.Windows.Forms.Label UserName;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Label MatKhau;
+        private System.Windows.Forms.TextBox txtmatKhau;
     }
 }
 
