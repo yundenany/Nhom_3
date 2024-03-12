@@ -43,8 +43,6 @@
             this.UserName.Size = new System.Drawing.Size(102, 16);
             this.UserName.TabIndex = 3;
             this.UserName.Text = "Tên Đăng Nhập";
-            this.UserName.Click += new System.EventHandler(this.UserName_Click);
-            // 
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(235, 96);
@@ -60,7 +58,6 @@
             this.MatKhau.Size = new System.Drawing.Size(62, 16);
             this.MatKhau.TabIndex = 5;
             this.MatKhau.Text = "Mật Khẩu";
-            this.MatKhau.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtpassword
             // 
@@ -68,7 +65,6 @@
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(270, 22);
             this.txtpassword.TabIndex = 4;
-            this.txtpassword.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnDangNhap
             // 

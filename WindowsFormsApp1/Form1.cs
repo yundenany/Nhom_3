@@ -17,21 +17,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserName_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             String username = txtUserName.Text;
