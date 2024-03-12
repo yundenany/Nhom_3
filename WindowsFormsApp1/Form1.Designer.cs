@@ -40,9 +40,10 @@
             this.UserName.AutoSize = true;
             this.UserName.Location = new System.Drawing.Point(120, 101);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(76, 16);
+            this.UserName.Size = new System.Drawing.Size(102, 16);
             this.UserName.TabIndex = 3;
-            this.UserName.Text = "User Name";
+            this.UserName.Text = "Tên Đăng Nhập";
+            this.UserName.Click += new System.EventHandler(this.UserName_Click);
             // 
             // txtUserName
             // 
@@ -56,9 +57,9 @@
             this.MatKhau.AutoSize = true;
             this.MatKhau.Location = new System.Drawing.Point(120, 178);
             this.MatKhau.Name = "MatKhau";
-            this.MatKhau.Size = new System.Drawing.Size(67, 16);
+            this.MatKhau.Size = new System.Drawing.Size(62, 16);
             this.MatKhau.TabIndex = 5;
-            this.MatKhau.Text = "Password";
+            this.MatKhau.Text = "Mật Khẩu";
             this.MatKhau.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtpassword
